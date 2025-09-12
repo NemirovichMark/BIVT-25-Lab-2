@@ -1,4 +1,4 @@
-﻿namespace Lab2test
+namespace Lab2test
 {
     [TestClass]
     public sealed class PurpleTest
@@ -118,8 +118,8 @@
         public void Test6()
         {
             // Arrange
-            var answer = new long[] { 1229782938247 };
-            var test = new long[answer.Length];
+            var answer = new ulong[] { 1229782938247 };
+            var test = new ulong[answer.Length];
             // Act
             for (int i = 0; i < answer.Length; i++)
             {
